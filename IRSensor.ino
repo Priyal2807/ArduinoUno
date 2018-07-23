@@ -4,7 +4,7 @@ int obs=LOW;
 
 void setup() {
  pinMode(led,OUTPUT);
- pinMode(obsPin,OUTPUT);
+ pinMode(obsPin,INPUT);
  Serial.begin(9600); 
 }
 
